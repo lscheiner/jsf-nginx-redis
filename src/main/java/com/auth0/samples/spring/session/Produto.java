@@ -3,17 +3,14 @@ package com.auth0.samples.spring.session;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-import lombok.Data;
-
-@Data
-public class Product implements Serializable {
+public class Produto implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
 	private String description;
     private BigDecimal price;
 
-    public Product(String description, BigDecimal price) {
+    public Produto(String description, BigDecimal price) {
         this.description = description;
         this.price = price;
     }
