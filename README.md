@@ -32,12 +32,10 @@ docker build -t spring-session-nginx nginx
 
 docker run -p 8080:80 -d --name spring-session-nginx spring-session-nginx
 
-##Logs
-
-**Spring session**
+**Spring session LOG**
 
 docker logs spring-session
 
-**nginx**
+**nginx LOG**
 
 docker logs spring-session-nginx
