@@ -1,6 +1,6 @@
 ## Escalando uma aplicação JSF
 
-# Clean install 
+# Build
 mvn clean package
 
 # criar redis image
